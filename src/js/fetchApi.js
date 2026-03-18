@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.VITE_PIXABAY_KEY;
+const API_KEY = 55070456-620b3af2625ed4d2721553348;
 
 export async function fetchImage(query) {
   const params = new URLSearchParams({
