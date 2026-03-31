@@ -9,7 +9,11 @@ Proje, modern **Vite** derleyicisi kullanılarak yapılandırılmış ve Pixabay
 ```text
 goit-js-hw-11/
 ├── src/
-│   ├── main.js          # Uygulama mantığı ve API istekleri
+│   ├── js
+|   │   ├── main.js          # Uygulama mantığı ve API istekleri                 
+│   |   ├── fetchApi.js       # API servis fonksiyonları
+│   |   ├── imageGallery.js   # Galeri oluşturma ve UI güncellemeleri
+|   |   └── searchForm.js     # Arama formu yapısı
 │   ├── index.html       # Arama formu ve galeri yapısı
 │   └── css/
 │       └── styles.css   # Makete uygun arayüz tasarımı
